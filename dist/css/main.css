@@ -43,13 +43,13 @@ body {
     mix-blend-mode: normal;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     width: 50%;
-    height: 35vh;
+    height: 42.5vh;
     border-radius: 0 0 10px 10px;
     visibility: hidden; }
     body .mobile-menu.show {
       visibility: visible; }
     body .mobile-menu .mobile-links {
-      margin-top: 10%;
+      margin-top: 12.5%;
       display: flex;
       flex-direction: column-reverse;
       text-align: center;
@@ -57,9 +57,9 @@ body {
       body .mobile-menu .mobile-links .m-link {
         position: relative;
         left: -0;
-        height: 32px;
+        height: 42px;
         margin-bottom: 15px;
-        font-size: 0.9rem;
+        font-size: 1.1rem;
         text-decoration: none;
         color: black; }
   body .div-title {
@@ -362,7 +362,7 @@ body {
       height: 10vh;
       grid-auto-rows: 110%; }
   body #hizmetlerimiz {
-    margin-top: 10rem;
+    margin-top: 0rem;
     width: 98%;
     height: auto;
     left: 0;
