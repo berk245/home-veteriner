@@ -22,8 +22,8 @@
       }
       &-landing {
         .box-image {
-          left: 50%;
-          width: 50%;
+          left: 40%;
+          width: 70%;
         }
       }
       &-grid {
@@ -67,7 +67,11 @@
           }
         }
       }
-
+      &-landing {
+        .box-image {
+          left: 50%;
+        }
+      }
       &-grid {
         .inner-box {
           width: 90%;
@@ -80,9 +84,20 @@
 @include mediaSm {
   body {
     .navbar {
+      .logo {
+        position: relative;
+        left: 2.5%;
+        top: 0.3rem;
+        img {
+          height: 6vh;
+        }
+      }
       .links {
         .menu-link {
-          left: 75%;
+          left: 70%;
+          top: 0.2rem;
+          color: $primary-color;
+          font-weight: bolder;
         }
       }
     }
@@ -95,8 +110,8 @@
       width: 90%;
       left: 0;
       .inner-box {
-        left: 0;
-        top: 55%;
+        left: 0%;
+        top: 50%;
         height: 65%;
         width: 100%;
         .box-title {
@@ -116,13 +131,23 @@
           }
         }
       }
-      &-photo,
+      &-photo {
+        .box-image {
+          left: 2.5%;
+          width: 105%;
+          height: 40%;
+        }
+        .inner-box {
+          top: 42.5%;
+        }
+      }
       &-landing {
         width: 90%;
+
         .box-image {
           position: relative;
           top: 0;
-          left: 5%;
+          left: 15%;
           height: 55%;
           width: 102%;
         }
@@ -154,7 +179,7 @@
 
       #kadromuz {
         height: 10vh;
-        grid-auto-rows: 100%;
+        grid-auto-rows: 110%;
       }
     }
 
