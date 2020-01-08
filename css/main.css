@@ -309,7 +309,7 @@ body {
     body .page .inner-box {
       left: 0%;
       top: 50%;
-      height: 65%;
+      height: auto;
       width: 100%; }
       body .page .inner-box .box-title {
         text-align: center; }
@@ -362,7 +362,7 @@ body {
       height: 10vh;
       grid-auto-rows: 110%; }
   body #hizmetlerimiz {
-    margin-top: 0rem;
+    margin-top: 7.5rem;
     width: 98%;
     height: auto;
     left: 0;
