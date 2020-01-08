@@ -134,6 +134,7 @@
         }
       }
       &-photo {
+        top: 0;
         .box-image {
           left: 2.5%;
           width: 105%;
@@ -180,11 +181,6 @@
             height: 80%;
           }
         }
-      }
-
-      #kadromuz {
-        height: 10vh;
-        grid-auto-rows: 110%;
       }
     }
 
@@ -241,7 +237,7 @@
     }
 
     #kadromuz {
-      margin-top: 15rem;
+      margin-top: 12.5rem;
       width: 98%;
       left: 0;
       top: 0%;
