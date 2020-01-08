@@ -1,0 +1,20 @@
+@mixin mediaSm {
+  @media screen and (max-width: 550px) {
+    @content;
+  }
+}
+@mixin mediaAra {
+  @media screen and (max-width: 740px) {
+    @content;
+  }
+}
+@mixin mediaMd {
+  @media screen and (max-width: 1200px) {
+    @content;
+  }
+}
+@mixin landScape {
+  @media screen and (max-height: 500px) {
+    @content;
+  }
+}

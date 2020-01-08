@@ -1,0 +1,15 @@
+{
+  "name": "homevet",
+  "version": "1.0.0",
+  "description": "Website for Home Vet Clinic Izmir, Turkey",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Berk Ozzambak",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.2.0",
+    "node-sass": "^4.13.0"
+  }
+}

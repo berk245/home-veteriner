@@ -1,0 +1,14 @@
+@media screen and (max-width: 1000px) {
+  .navbar {
+    align-content: center; } }
+
+@media screen and (max-width: 500px) {
+  .navbar {
+    grid-template-areas: "logo button";
+    grid-template-columns: 70% 30% !important; }
+    .navbar .links {
+      visibility: hidden; }
+  .page-photo {
+    display: flex; }
+    .page-photo .inner-box {
+      width: 90%; } }
