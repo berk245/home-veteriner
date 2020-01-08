@@ -388,10 +388,35 @@ body {
           text-align: center;
           margin-bottom: -10px; }
   body #kadromuz {
-    width: 105%;
-    grid-template-areas: "image" "text";
-    grid-template-columns: 100%;
-    grid-auto-rows: 50%; }
+    margin-top: 10rem;
+    width: 98%;
+    left: 0;
+    top: 0%; }
+    body #kadromuz .hizmet-grid1,
+    body #kadromuz .hizmet-grid2 {
+      border: none;
+      width: 100%;
+      grid-template-areas: "image" "text";
+      grid-template-columns: 100%;
+      grid-auto-rows: 50%;
+      height: 55vh; }
+      body #kadromuz .hizmet-grid1.main,
+      body #kadromuz .hizmet-grid2.main {
+        grid-template-rows: 10% 80%;
+        height: 30vh;
+        margin-bottom: -20px; }
+      body #kadromuz .hizmet-grid1 img,
+      body #kadromuz .hizmet-grid2 img {
+        height: 25vh;
+        grid-area: image;
+        border-radius: 10px 10px 0 0; }
+      body #kadromuz .hizmet-grid1 .hizmet-text,
+      body #kadromuz .hizmet-grid2 .hizmet-text {
+        padding-bottom: 2rem; }
+        body #kadromuz .hizmet-grid1 .hizmet-text h3,
+        body #kadromuz .hizmet-grid2 .hizmet-text h3 {
+          text-align: center;
+          margin-bottom: -10px; }
   body .footer {
     display: none; } }
 
