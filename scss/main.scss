@@ -221,14 +221,15 @@ body {
   #hizmetlerimiz {
     display: flex;
     flex-direction: column;
-    background: #fbf9f9;
-    mix-blend-mode: normal;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
     .hizmet-grid1,
     .hizmet-grid2 {
+      background: #fbf9f9;
+      mix-blend-mode: normal;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
       display: grid;
-      margin: 2rem 0 5rem 0;
-      height: 25vh;
+      margin: 2rem 0 0rem 0;
+      height: auto;
 
       border-radius: 10px;
       .hizmet-text,
@@ -260,14 +261,15 @@ body {
   #kadromuz {
     display: flex;
     flex-direction: column;
-    background: #fbf9f9;
-    mix-blend-mode: normal;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
     .hizmet-grid1,
     .hizmet-grid2 {
       display: grid;
-      margin: 2rem 0 5rem 0;
-      height: 20vh;
+      margin: 2rem 0 0rem 0;
+      height: auto;
+      background: #fbf9f9;
+      mix-blend-mode: normal;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
       border-radius: 10px;
       .hizmet-text,
