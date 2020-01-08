@@ -402,6 +402,7 @@ body {
         position: relative;
         top: 0%;
         text-align: justify;
+        padding: 1rem;
         padding-bottom: 2rem; }
         body #hizmetlerimiz .hizmet-grid1 .hizmet-text h3,
         body #hizmetlerimiz .hizmet-grid2 .hizmet-text h3 {
