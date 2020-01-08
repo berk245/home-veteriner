@@ -127,16 +127,12 @@ body {
       border-radius: 10px; }
       body .page-landing .inner-box {
         background: #fbf9f9; }
-      body .page-landing .image2 {
-        z-index: 2;
-        position: relative;
-        width: 40%; }
       body .page-landing .box-image {
         position: relative;
-        left: 45%;
-        top: 25%;
-        width: 50%;
-        height: 70%;
+        left: 40%;
+        top: 5%;
+        width: 60%;
+        height: 90%;
         border-radius: 10px; }
     body .page-photo {
       position: relative;
@@ -236,7 +232,7 @@ body {
     left: 0; }
     body .page .inner-box {
       left: 0;
-      top: 35%;
+      top: 55%;
       height: 65%;
       width: 100%; }
       body .page .inner-box .box-title {
@@ -257,7 +253,7 @@ body {
         position: relative;
         top: 0;
         left: 5%;
-        height: 35%;
+        height: 55%;
         width: 102%; }
     body .page-grid {
       left: 2.5%;
