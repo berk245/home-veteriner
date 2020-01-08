@@ -221,13 +221,15 @@ body {
   #hizmetlerimiz {
     display: flex;
     flex-direction: column;
-
+    background: #fbf9f9;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     .hizmet-grid1,
     .hizmet-grid2 {
       display: grid;
-      margin: 2rem 0 2rem 0;
+      margin: 2rem 0 5rem 0;
       height: 25vh;
-      border: 1px solid;
+
       border-radius: 10px;
       .hizmet-text,
       h2 {
@@ -252,6 +254,39 @@ body {
       grid-template-columns: 55% 45%;
       img {
         border-radius: 0px 10 10 0px;
+      }
+    }
+  }
+  #kadromuz {
+    display: flex;
+    flex-direction: column;
+    background: #fbf9f9;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    .hizmet-grid1,
+    .hizmet-grid2 {
+      display: grid;
+      margin: 2rem 0 5rem 0;
+      height: 20vh;
+
+      border-radius: 10px;
+      .hizmet-text,
+      h2 {
+        justify-self: center;
+        align-self: center;
+      }
+      .hizmet-text {
+        padding: 2rem;
+      }
+      img {
+        height: 90%;
+        width: 100%;
+      }
+    }
+    .hizmet-grid1 {
+      grid-template-columns: 25% 65%;
+      img {
+        border-radius: 00px 10px 10px 0px;
       }
     }
   }

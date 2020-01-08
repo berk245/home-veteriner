@@ -166,13 +166,15 @@ body {
           height: 40%; }
   body #hizmetlerimiz {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    background: #fbf9f9;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); }
     body #hizmetlerimiz .hizmet-grid1,
     body #hizmetlerimiz .hizmet-grid2 {
       display: grid;
-      margin: 2rem 0 2rem 0;
+      margin: 2rem 0 5rem 0;
       height: 25vh;
-      border: 1px solid;
       border-radius: 10px; }
       body #hizmetlerimiz .hizmet-grid1 .hizmet-text,
       body #hizmetlerimiz .hizmet-grid1 h2,
@@ -195,6 +197,35 @@ body {
       grid-template-columns: 55% 45%; }
       body #hizmetlerimiz .hizmet-grid2 img {
         border-radius: 0px 10 10 0px; }
+  body #kadromuz {
+    display: flex;
+    flex-direction: column;
+    background: #fbf9f9;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); }
+    body #kadromuz .hizmet-grid1,
+    body #kadromuz .hizmet-grid2 {
+      display: grid;
+      margin: 2rem 0 5rem 0;
+      height: 20vh;
+      border-radius: 10px; }
+      body #kadromuz .hizmet-grid1 .hizmet-text,
+      body #kadromuz .hizmet-grid1 h2,
+      body #kadromuz .hizmet-grid2 .hizmet-text,
+      body #kadromuz .hizmet-grid2 h2 {
+        justify-self: center;
+        align-self: center; }
+      body #kadromuz .hizmet-grid1 .hizmet-text,
+      body #kadromuz .hizmet-grid2 .hizmet-text {
+        padding: 2rem; }
+      body #kadromuz .hizmet-grid1 img,
+      body #kadromuz .hizmet-grid2 img {
+        height: 90%;
+        width: 100%; }
+    body #kadromuz .hizmet-grid1 {
+      grid-template-columns: 25% 65%; }
+      body #kadromuz .hizmet-grid1 img {
+        border-radius: 00px 10px 10px 0px; }
   body .section-break {
     height: 10vh; }
   body .footer {
@@ -300,9 +331,11 @@ body {
       body .page-landing .box-image {
         position: relative;
         top: 0;
-        left: 15%;
-        height: 55%;
+        left: 5%;
+        height: 50%;
         width: 102%; }
+      body .page-landing .action-button {
+        position: relative; }
     body .page-grid {
       left: 2.5%;
       top: 0;
@@ -325,6 +358,40 @@ body {
     body .page #kadromuz {
       height: 10vh;
       grid-auto-rows: 110%; }
+  body #hizmetlerimiz {
+    margin-top: 10rem;
+    width: 98%;
+    left: 0;
+    top: 0%; }
+    body #hizmetlerimiz .hizmet-grid1,
+    body #hizmetlerimiz .hizmet-grid2 {
+      border: none;
+      width: 100%;
+      grid-template-areas: "image" "text";
+      grid-template-columns: 100%;
+      grid-auto-rows: 50%;
+      height: 55vh; }
+      body #hizmetlerimiz .hizmet-grid1.main,
+      body #hizmetlerimiz .hizmet-grid2.main {
+        grid-template-rows: 10% 80%;
+        height: 30vh; }
+      body #hizmetlerimiz .hizmet-grid1 img,
+      body #hizmetlerimiz .hizmet-grid2 img {
+        height: 25vh;
+        grid-area: image;
+        border-radius: 10px 10px 0 0; }
+      body #hizmetlerimiz .hizmet-grid1 .hizmet-text,
+      body #hizmetlerimiz .hizmet-grid2 .hizmet-text {
+        padding-bottom: 2rem; }
+        body #hizmetlerimiz .hizmet-grid1 .hizmet-text h3,
+        body #hizmetlerimiz .hizmet-grid2 .hizmet-text h3 {
+          text-align: center;
+          margin-bottom: -10px; }
+  body #kadromuz {
+    width: 105%;
+    grid-template-areas: "image" "text";
+    grid-template-columns: 100%;
+    grid-auto-rows: 50%; }
   body .footer {
     display: none; } }
 

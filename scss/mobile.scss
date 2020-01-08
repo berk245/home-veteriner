@@ -147,9 +147,12 @@
         .box-image {
           position: relative;
           top: 0;
-          left: 15%;
-          height: 55%;
+          left: 5%;
+          height: 50%;
           width: 102%;
+        }
+        .action-button {
+          position: relative;
         }
       }
       &-grid {
@@ -181,6 +184,51 @@
         height: 10vh;
         grid-auto-rows: 110%;
       }
+    }
+
+    #hizmetlerimiz {
+      margin-top: 10rem;
+      width: 98%;
+      left: 0;
+      top: 0%;
+      .hizmet-grid1,
+      .hizmet-grid2 {
+        border: none;
+        width: 100%;
+        grid-template-areas:
+          "image"
+          "text";
+        grid-template-columns: 100%;
+        grid-auto-rows: 50%;
+        height: 55vh;
+        &.main {
+          grid-template-rows: 10% 80%;
+          height: 30vh;
+          .hizmet-text {
+          }
+        }
+        img {
+          height: 25vh;
+          grid-area: image;
+          border-radius: 10px 10px 0 0;
+        }
+        .hizmet-text {
+          h3 {
+            text-align: center;
+            margin-bottom: -10px;
+          }
+          padding-bottom: 2rem;
+        }
+      }
+    }
+
+    #kadromuz {
+      width: 105%;
+      grid-template-areas:
+        "image"
+        "text";
+      grid-template-columns: 100%;
+      grid-auto-rows: 50%;
     }
 
     .footer {
