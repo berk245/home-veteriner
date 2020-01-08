@@ -220,10 +220,10 @@ body {
         padding: 2rem; }
       body #kadromuz .hizmet-grid1 img,
       body #kadromuz .hizmet-grid2 img {
-        height: 90%;
+        height: 100%;
         width: 100%; }
     body #kadromuz .hizmet-grid1 {
-      grid-template-columns: 25% 65%; }
+      grid-template-columns: 35% 65%; }
       body #kadromuz .hizmet-grid1 img {
         border-radius: 00px 10px 10px 0px; }
   body .section-break {
@@ -286,17 +286,20 @@ body {
     width: 90%; } }
 
 @media screen and (max-width: 550px) {
-  body .navbar .logo {
-    position: relative;
-    left: 2.5%;
-    top: 0.3rem; }
-    body .navbar .logo img {
-      height: 6vh; }
-  body .navbar .links .menu-link {
-    left: 70%;
-    top: 0.2rem;
-    color: #0daea8;
-    font-weight: bolder; }
+  body .navbar {
+    height: 9vh; }
+    body .navbar .logo {
+      position: relative;
+      left: 2.5%;
+      top: 0.3rem; }
+      body .navbar .logo img {
+        height: 8.5vh; }
+    body .navbar .links .menu-link {
+      left: 60%;
+      top: 0.2rem;
+      color: #0daea8;
+      font-weight: bolder;
+      font-size: 1.1rem; }
   body .div-title {
     top: 15vh;
     margin-bottom: 20vh; }
@@ -314,7 +317,7 @@ body {
         line-height: 1.3rem; }
       body .page .inner-box .action-buttons {
         position: relative;
-        top: 5%;
+        top: 0%;
         left: -3%;
         width: 100%; }
         body .page .inner-box .action-buttons .action-button {
@@ -373,8 +376,16 @@ body {
       height: 55vh; }
       body #hizmetlerimiz .hizmet-grid1.main,
       body #hizmetlerimiz .hizmet-grid2.main {
-        grid-template-rows: 10% 80%;
+        grid-template-rows: 30% 70%;
         height: 30vh; }
+        body #hizmetlerimiz .hizmet-grid1.main h2,
+        body #hizmetlerimiz .hizmet-grid2.main h2 {
+          font-size: 2rem;
+          margin-bottom: 3rem; }
+        body #hizmetlerimiz .hizmet-grid1.main .hizmet-text,
+        body #hizmetlerimiz .hizmet-grid2.main .hizmet-text {
+          align-self: unset;
+          margin-top: -2rem; }
       body #hizmetlerimiz .hizmet-grid1 img,
       body #hizmetlerimiz .hizmet-grid2 img {
         height: 25vh;
@@ -382,13 +393,16 @@ body {
         border-radius: 10px 10px 0 0; }
       body #hizmetlerimiz .hizmet-grid1 .hizmet-text,
       body #hizmetlerimiz .hizmet-grid2 .hizmet-text {
+        align-self: unset;
+        position: relative;
+        top: -15%;
         padding-bottom: 2rem; }
         body #hizmetlerimiz .hizmet-grid1 .hizmet-text h3,
         body #hizmetlerimiz .hizmet-grid2 .hizmet-text h3 {
           text-align: center;
           margin-bottom: -10px; }
   body #kadromuz {
-    margin-top: 10rem;
+    margin-top: 15rem;
     width: 98%;
     left: 0;
     top: 0%; }
@@ -398,20 +412,30 @@ body {
       width: 100%;
       grid-template-areas: "image" "text";
       grid-template-columns: 100%;
-      grid-auto-rows: 50%;
+      grid-auto-rows: 55%;
       height: 55vh; }
       body #kadromuz .hizmet-grid1.main,
       body #kadromuz .hizmet-grid2.main {
-        grid-template-rows: 10% 80%;
-        height: 30vh;
-        margin-bottom: -20px; }
+        grid-template-rows: 30% 70%;
+        height: 30vh; }
+        body #kadromuz .hizmet-grid1.main h2,
+        body #kadromuz .hizmet-grid2.main h2 {
+          font-size: 2rem;
+          margin-bottom: 3rem; }
+        body #kadromuz .hizmet-grid1.main .hizmet-text,
+        body #kadromuz .hizmet-grid2.main .hizmet-text {
+          align-self: unset;
+          margin-top: -2rem; }
       body #kadromuz .hizmet-grid1 img,
       body #kadromuz .hizmet-grid2 img {
-        height: 25vh;
+        height: 30vh;
         grid-area: image;
         border-radius: 10px 10px 0 0; }
       body #kadromuz .hizmet-grid1 .hizmet-text,
       body #kadromuz .hizmet-grid2 .hizmet-text {
+        align-self: unset;
+        position: relative;
+        top: -15%;
         padding-bottom: 2rem; }
         body #kadromuz .hizmet-grid1 .hizmet-text h3,
         body #kadromuz .hizmet-grid2 .hizmet-text h3 {

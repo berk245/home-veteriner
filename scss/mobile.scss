@@ -84,20 +84,22 @@
 @include mediaSm {
   body {
     .navbar {
+      height: 9vh;
       .logo {
         position: relative;
         left: 2.5%;
         top: 0.3rem;
         img {
-          height: 6vh;
+          height: 8.5vh;
         }
       }
       .links {
         .menu-link {
-          left: 70%;
+          left: 60%;
           top: 0.2rem;
           color: $primary-color;
           font-weight: bolder;
+          font-size: 1.1rem;
         }
       }
     }
@@ -122,7 +124,7 @@
         }
         .action-buttons {
           position: relative;
-          top: 5%;
+          top: 0%;
           left: -3%;
           width: 100%;
           .action-button {
@@ -202,9 +204,15 @@
         grid-auto-rows: 50%;
         height: 55vh;
         &.main {
-          grid-template-rows: 10% 80%;
+          grid-template-rows: 30% 70%;
           height: 30vh;
+          h2 {
+            font-size: 2rem;
+            margin-bottom: 3rem;
+          }
           .hizmet-text {
+            align-self: unset;
+            margin-top: -2rem;
           }
         }
         img {
@@ -213,6 +221,9 @@
           border-radius: 10px 10px 0 0;
         }
         .hizmet-text {
+          align-self: unset;
+          position: relative;
+          top: -15%;
           h3 {
             text-align: center;
             margin-bottom: -10px;
@@ -223,7 +234,7 @@
     }
 
     #kadromuz {
-      margin-top: 10rem;
+      margin-top: 15rem;
       width: 98%;
       left: 0;
       top: 0%;
@@ -235,21 +246,29 @@
           "image"
           "text";
         grid-template-columns: 100%;
-        grid-auto-rows: 50%;
+        grid-auto-rows: 55%;
         height: 55vh;
         &.main {
-          grid-template-rows: 10% 80%;
+          grid-template-rows: 30% 70%;
           height: 30vh;
-          margin-bottom: -20px;
+          h2 {
+            font-size: 2rem;
+            margin-bottom: 3rem;
+          }
           .hizmet-text {
+            align-self: unset;
+            margin-top: -2rem;
           }
         }
         img {
-          height: 25vh;
+          height: 30vh;
           grid-area: image;
           border-radius: 10px 10px 0 0;
         }
         .hizmet-text {
+          align-self: unset;
+          position: relative;
+          top: -15%;
           h3 {
             text-align: center;
             margin-bottom: -10px;
