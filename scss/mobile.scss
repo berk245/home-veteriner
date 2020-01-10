@@ -2,6 +2,7 @@
   body {
     .navbar {
       align-content: center;
+
       .links {
         font-size: 0.9rem;
         .nav-links {
@@ -86,6 +87,13 @@
     .navbar {
       height: 9vh;
       .logo {
+        .pcLogo {
+          display: none;
+        }
+        .mobileLogo {
+          display: inline-block;
+        }
+
         position: relative;
         left: 2.5%;
         top: 0.3rem;
@@ -186,6 +194,7 @@
 
     #hizmetlerimiz {
       margin-top: 7.5rem;
+      margin-bottom: 22rem;
       width: 98%;
       height: auto;
       left: 0;
@@ -231,6 +240,9 @@
             text-align: center;
             margin-bottom: -10px;
           }
+          p {
+            margin-bottom: -5rem;
+          }
           padding: 1rem;
           padding-bottom: 2rem;
         }
@@ -239,6 +251,7 @@
 
     #kadromuz {
       margin-top: 12.5rem;
+      margin-bottom: 22.5rem;
       width: 98%;
       left: 0;
       top: 0%;
