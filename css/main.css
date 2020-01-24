@@ -25,8 +25,8 @@ body {
       body .navbar .logo .pcLogo {
         position: relative;
         margin-top: 0.25rem;
-        height: 9.5vh;
-        width: 22.5%; }
+        height: 9vh;
+        width: 20%; }
     body .navbar .links {
       grid-area: links; }
       body .navbar .links a {
@@ -98,7 +98,8 @@ body {
         font-weight: 600; }
       body .page .inner-box .box-text {
         font-size: 1.2rem;
-        line-height: 1.5rem;
+        line-height: 2rem;
+        font-weight: 300;
         text-align: justify; }
       body .page .inner-box .action-buttons {
         position: absolute;
@@ -155,7 +156,7 @@ body {
     body .page-grid {
       position: relative;
       height: auto;
-      margin-bottom: 5rem;
+      margin-bottom: 20rem;
       top: 10vh;
       border-radius: 10px;
       display: grid;
