@@ -6,13 +6,14 @@ let showMenu = false;
 menuBtn.addEventListener("click", mobileMenu);
 
 function mobileMenu() {
-  if (!showMenu) {
-    mobMenu.classList.add("show");
-    menuBtn.classList.add("active");
-    showMenu = true;
-  } else {
+  if (showMenu) {
     mobMenu.classList.remove("show");
     menuBtn.classList.remove("active");
     showMenu = false;
+    
+  } else {
+    mobMenu.classList.add("show");
+    menuBtn.classList.add("active");
+    showMenu = true;
   }
 }
