@@ -17,3 +17,7 @@ function mobileMenu() {
     showMenu = true;
   }
 }
+
+function testFunction(){
+  console.log('This is a test function for PR challenge')
+}
